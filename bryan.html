@@ -1,1 +1,99 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<head>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://image.freepik.com/free-vector/city-background-design_1300-365.jpg');
+      background-size: ;
+      color: white;
+      font-family: Chalkboard;
+    }
+    a {
+      color: Black;
+    }
+    h1 {
+      color: blue;
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    body {
+      font-family: Chalkboard;
+      background: cyan;
+      
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      font-family: Chalkboard;
+      color: purple;
+      background: cyan;
+      
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+        font-family: Chalkboard;
+      }
+      h2 {
+        font-family: Charcoal;
+        color: black;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://clipart-library.com/image_gallery/612604.gif">
+    <h1>Someone's Blog</h1>
+    <ul>
+      <li><a href="https://media3.giphy.com/media/L3nWlmgyqCeU8/giphy.gif">Hi</a></li>
+      <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BadlogoMJ.png/1200px-BadlogoMJ.png">Dont Click This</a></li>
+      <li><a href="https://i.ytimg.com/vi/2meaqLD9SVM/maxresdefault.jpg">Bye</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Money</h2>
+    <p>Money is needed to help some people. Money is needed to buy stuff. Sometimes money can be a bad thing. And it brings greed to people and that isnt good. Money should be used carefully.</p>
+    <button>Like</button>
+    <button>Dislike</button>
+  </article>
+  <article>
+    <h2>Party</h2>
+    <p>Party was fun. i had an amazing time. We should go to that party again please. We should hang out more. It was a blast. thank for the invite man. i really appreciated it</p>
+    <button>Like</button>
+    <button>Dislike</button>
+  </article>
+  <article>
+    <h2>Cars</h2>
+    <p>Cars go vroom. Cars help people go fromlace to place amd they help people navagate. Some cars are fast. Some cars are slow. Some cars need gas. And some cars dont. Cars are cool and they go vroom vroom too!</p>
+    <button>Like</button>
+    <Button>Dislike</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Good Job!");
+    });
+  </script>
+</body>
